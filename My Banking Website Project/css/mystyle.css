@@ -1,0 +1,36 @@
+
+body {
+	background-image: url("../images/mainbankimage.jpg");
+	background-color: #cccccc;
+	height: 600px; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+}
+
+#welcome {
+	background-color: rgba(10, 10, 10, 0.6);
+	border-radius: 0 !important;
+}
+
+#welcome h1 {
+	text-align: center;
+}
+
+#newAccount, #login {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.card-header {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
